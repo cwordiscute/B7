@@ -1,0 +1,96 @@
+div.menu {
+	opacity:0.8;
+	
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#9acd32 ;
+}
+li {
+	float: left;
+}
+div.menu a {
+    display: inline-block;
+	font-size:25px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+div.menu a:hover {
+    background-color: #edd326;
+}
+
+p {
+	font-size: 30px;
+	color: black;
+}
+
+table {
+	position: absolute;
+	top: 300px;
+	left: 400px;
+	width: 50%;
+	height: 40%;
+}
+
+th {
+	font-size: 20px;
+}
+
+form {
+	border: solid 2px;
+	border-radius: 10px;
+	background-color: #9acd32;
+	position: center;
+	width: 30%;
+	padding: 10px;
+	margin: 100px 500px;
+}
+div > label{
+	width: 15%;
+	color: white;
+	font-size: 22px;
+}
+
+div > input[type="text"]{
+	width: 50%;
+	font-size: 18px;
+	padding: 3px;
+	box-sizing: border-box;
+	border: solid 1px;
+	border-radius: 10px;
+	margin-left: 68px;
+}
+
+div > input[type="password"]{
+	width: 50%;
+	font-size: 18px;
+	padding: 3px;
+	box-sizing: border-box;
+	border: solid 1px;
+	border-radius: 10px;
+	margin-left: 60px;
+}
+
+input[type="submit"]{
+	background-color: #edd326;
+	font-size: 18px;
+	border: none;
+	color: #fff;
+	padding: 10px;
+	margin-left: 200px;
+	border-radius: 10px;
+}
+
+input[type="submit"]:hover{
+	background-color: rgba(0, 0, 0, 0.4);
+	font-size: 18px;
+	border: none;
+	color: #fff;
+	padding: 10px
+}
